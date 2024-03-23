@@ -1,0 +1,436 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbr{
+    height: 60px;
+    width: 100%;
+    background-color: #E4E4E4;
+}
+
+#search_bar{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    left: 300px;
+    top: 10px;
+     outline: none;
+}
+
+#searching{
+    position: absolute;
+    left: 780px;
+    top: 15px;
+    font-size: 17px;
+    color: chocolate;
+
+}
+
+.sell{
+    position: absolute;
+    top: 16px;
+    left: 900px;
+    color: chocolate;
+    font-size:  13px ;
+    font-weight: 550;
+}
+
+.login{
+    position: absolute;
+    top: 16px;
+    left: 1100px;
+    font-weight: 500;
+    font-size:  13px ;
+    font-size: medium;
+}
+
+#mcard{
+position: absolute;
+left: 1250px;
+top: 16px;
+font-size: 15px;
+}
+
+.top{
+    /* border: 2px solid black; */
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#gift1{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    font-size: 20px;
+    color: aquamarine;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+#giftc{
+    position: relative;
+    font-size: 15px;
+    top: 11px;
+    left: 110px;
+    font-weight: 400;
+}
+
+#isauces{
+    position: absolute;
+    top: 100px;
+    left: 285px;
+    font-size: 20px;
+    color: orange;
+}
+
+#tsauces{
+    position: relative;
+    font-size: 15px;
+    bottom: 10px;
+    left: 225px;
+    font-weight: 400;
+}
+
+#icoffee{
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    color: deeppink;
+    font-size: 20px;
+}
+#tcoffee{
+    position: absolute;
+    left: 498px;
+   top: 98px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#icookies{
+    position: absolute;
+    left: 590px;
+    top: 100px;
+    font-size: 20px;
+    color: burlywood;
+
+}
+#tcookies{
+    position: absolute;
+    left: 615px;
+    top: 100px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#ihoney{
+    position: absolute;
+    left: 710px;
+    top: 100px;
+}
+
+#thoney{
+position: absolute;
+left: 730px;
+top:95px ;
+}
+.iice{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+.tice{
+    position: absolute;
+    left: 930px;
+    top:95px ;
+
+}
+
+
+#cimage{
+    position: absolute;
+   bottom: 90px;
+    left: 200px;
+    height: auto;
+    width: 800px;
+}
+
+.center_text{
+    position: absolute;
+    left: 40%;
+    bottom: -40px;
+}
+/* .male_cloth{
+    flex-wrap: wrap;
+flex-direction: row;
+    position: absolute;
+    top: 800px;
+  
+}
+.m1,.m2,.m3,.m4,.m5,.m6,.m7,.m8{
+flex-wrap: wrap;
+    height: 300px;
+    width: 200px; 
+}
+
+#im1,#im2,#im3,#im4,#im5,#im6,#im7,#im8{
+    flex-wrap: wrap;
+    height: 200px;
+    width: 180px;
+} */
+
+/*                 1         */
+
+#im1{
+    height: 200px;
+    width: 150px;
+    /* position: absolute;
+    top: 600px; */
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.m1{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 800px;
+}
+
+
+#bm1{
+    position: relative;
+    left: 50px;
+    top: 38px;
+  }
+
+  /*           2           */
+
+  #im2{
+    height: 200px;
+    width: 150px;
+    /* position: absolute;
+    top: 600px; */
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.m2{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+
+#bm2{
+    position: relative;
+    left: 60px;
+    top: 68px;
+  }
+
+  /*             3               */
+
+  #im3{
+    height: 200px;
+    width: 150px;
+    /* position: absolute;
+    top: 600px; */
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.m3{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+
+/* 4 */
+
+ #im4{
+    height: 200px;
+    width: 150px;
+     position: absolute;
+    top: 600px; 
+    position: relative;
+    top: 25px;
+    left: 30px;
+} 
+
+ .m4{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 800px;
+    left: 1200px; 
+} 
+
+/*          5       */
+
+#im5{
+    height: 200px;
+    width: 150px;
+     position: absolute;
+    top: 600px; 
+    position: relative;
+    top: 25px;
+    left: 30px;
+} 
+
+.m5{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 1100px;
+   
+} 
+
+/* 6 */
+#im6{
+    height: 200px;
+    width: 150px;
+     position: absolute;
+    top: 600px; 
+    position: relative;
+    top: 25px;
+    left: 30px;
+} 
+.m6{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+   
+} 
+
+/*  7 */
+
+#im7{
+    height: 200px;
+    width: 150px;
+     position: absolute;
+    top: 600px; 
+    position: relative;
+    top: 25px;
+    left: 30px;
+} 
+
+.m7{
+    border: 2px solid blue;
+    border-radius: 10px;
+    opacity: ;
+    height: 270px ;
+    width:200px ;
+    position: absolute;
+    top: 1100px;
+    left: 800px;
+   
+} 
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color:  chocolate;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+
+/* .next{
+  
+    position: absolute;
+    top: 1200px;
+    left: 1300px;
+} */
+
+.nextpre{
+    height: 50px;
+    width: 400px;
+    
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+}
+
+.promotion{
+    
+    background-color: slategray;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+}
+.pvideom{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.contentp{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 280px;
+    bottom: 200px;
+
+}
+
+#view_more{
+    position: relative;
+    top: 20px;
+    right: 150px;
+}
